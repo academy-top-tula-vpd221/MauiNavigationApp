@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiNavigationApp.OrdinalPage"
+             Title="OrdinalPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Ordinal Page"
+            VerticalOptions="Start" 
+            HorizontalOptions="Center" />
+        <Button x:Name="btnToPage2" 
+            Text="To Page 2"
+            Clicked="btnToPage2_Clicked"
+            VerticalOptions="Start" 
+            HorizontalOptions="Center"/>
+        <Button x:Name="btnBack" 
+                Clicked="btnBack_Clicked" 
+                Text="Back"
+                VerticalOptions="Start" 
+                HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>
